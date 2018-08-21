@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordX"
+            android:visibility="invisible"
+            android:text="Password"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/etPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:background="@android:color/transparent"
+
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <View
+            android:layout_marginTop="60dp"
+            android:layout_width="340dp"
+            android:id="@+id/lineBl100"
+            android:layout_height="2dp"
+            android:background="#D3D3D3"
+            android:visibility="visible"
+            />
+
+        <View
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="85dp"
+            android:layout_width="255dp"
+            android:id="@+id/lineBl75"
+            android:layout_height="2dp"
+            android:background="#D3D3D3"
+            android:visibility="invisible"
+            />
+        <View
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="170dp"
+            android:layout_width="170dp"
+            android:id="@+id/lineBl50"
+            android:layout_height="2dp"
+            android:background="#D3D3D3"
+            android:visibility="invisible"
+            />
+
+
+        <View
+            android:layout_marginTop="60dp"
+            android:layout_width="85dp"
+            android:id="@+id/linered25"
+            android:layout_height="2dp"
+            android:background="#9a2d25"
+            android:visibility="invisible"
+            />
+
+        <View
+            android:layout_marginTop="60dp"
+            android:layout_width="170dp"
+            android:id="@+id/lineyellow50"
+            android:layout_height="2dp"
+            android:background="#f8f9a2"
+            android:visibility="invisible"
+
+            />
+
+        <View
+            android:layout_marginTop="60dp"
+            android:layout_width="340dp"
+            android:id="@+id/linegreen100"
+            android:layout_height="2dp"
+            android:background="#3b6255"
+            android:visibility="invisible"
+
+            />
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/strongText"
+            android:layout_marginLeft="290dp"
+            android:text="weak"
+            android:visibility="invisible"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="140dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:src="@drawable/checkmark"
+            android:id="@+id/checkmark1"
+            android:visibility="invisible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:src="@drawable/cross"
+            android:id="@+id/cross1"
+            android:visibility="visible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/checkmark"
+            android:id="@+id/checkmark2"
+            android:visibility="invisible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/cross"
+            android:id="@+id/cross2"
+            android:visibility="visible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="20dp"
+            android:src="@drawable/checkmark"
+            android:id="@+id/checkmark3"
+            android:visibility="invisible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="20dp"
+            android:src="@drawable/cross"
+            android:id="@+id/cross3"
+            android:visibility="visible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:layout_width="20dp"
+            android:src="@drawable/checkmark"
+            android:id="@+id/checkmark4"
+            android:visibility="invisible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:id="@+id/cross4"
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/cross"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_marginTop="100dp"
+            android:layout_width="20dp"
+            android:src="@drawable/checkmark"
+            android:id="@+id/checkmark5"
+            android:visibility="invisible"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_marginTop="100dp"
+            android:layout_width="20dp"
+            android:src="@drawable/cross"
+            android:id="@+id/cross5"
+            android:visibility="visible"
+            android:layout_height="20dp" />
+
+
+
+        <TextView
+            android:id="@+id/flagA650"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="6-50 charcters"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/flagBletter1"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Include 1 letter"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/flagCNumber1"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Include 1 number"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/flagDCharsTwoplus"
+            android:layout_marginTop="60dp"
+            android:layout_width="220dp"
+            android:layout_marginLeft="30dp"
+            android:text="A character cannot repeat more than twice in a row"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/flagESpecialChars"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Approved special charcters: _!@$"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="170dp"
+            android:id="@+id/userId"
+            android:layout_marginLeft="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="iiiiii"
+            android:hint="UserId"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordXConfirm"
+            android:visibility="invisible"
+            android:text="Password"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/etConfirmPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <View
+            android:layout_marginTop="60dp"
+            android:layout_width="340dp"
+            android:id="@+id/lineBl100_2"
+            android:layout_height="2dp"
+            android:background="#D3D3D3"
+            android:visibility="visible"
+            />
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:visibility="invisible"
+            android:text="Passwords not matching for confirmation"
+            android:id="@+id/confirmError"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rel3"
+        android:gravity="center"
+        android:layout_height="100dp">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:clickable="false"
+            android:layout_gravity="center"
+            android:id="@+id/button"
+            android:text="Continue"
+
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
